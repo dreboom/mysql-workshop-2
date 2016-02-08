@@ -1,0 +1,5 @@
+insert into Account values ();
+
+insert into AddressBook values();
+
+insert into Entry values (), (), ();
