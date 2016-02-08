@@ -1,0 +1,5 @@
+update Account set email='dre@gmail.com';
+
+update AddressBook set name='dreboom';
+
+update Entry set firstName='dreboom';
