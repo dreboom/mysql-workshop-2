@@ -1,0 +1,17 @@
+Which Account owns the most Address Books?
+
+command:
+select count(*), accountId from AddressBook group by accountId order by count(*) desc limit 5;
+
+result:
+accountId: 14 count: 19
+accountId: 5  count: 19
+
+
+Which Address Book contains the most Entries?
+
+command:
+select count(*), addressbookId from Entry group by addressbookId order by count(*) desc limit 5;
+
+result:
+addressbookId: 37 count: 52
