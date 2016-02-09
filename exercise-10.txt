@@ -1,0 +1,26 @@
+How many Address Book Entries are listed as born before February 12th of 1982?
+
+command:
+select count(*) from Entry where birthday < '1982-02-12';
+
+result:
+2687
+
+
+How many Address Book Entries are listed as born on or after January 1st of 1965?
+
+command:
+select count(*) from Entry where birthday >= '1965-01-01'; 
+
+result:
+2597
+
+
+Which Address Book Entry is listed as being the oldest of age?
+
+command:
+select * from Entry order by birthday limit 1;
+
+result:
+2260 - Abigail Rollins - 1945-09-02 09:21:58
+
