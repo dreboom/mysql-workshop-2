@@ -1,0 +1,28 @@
+What is the email of the Account identified by "63"?
+command:
+select email from Account where id=63;
+
+result:
+consectetuer.rhoncus.Nullam@temporloremeget.org
+
+What are the names of the AdressBooks belonging to accountId "3"?
+command:
+select name from AddressBook where accountId=3;
+
+result:
+Donec Incorporated
+Ipsum Nunc LLC
+In Consectetuer Ltd
+Lacus Aliquam Rutrum Industries
+Ac Ltd
+Mauris Consulting
+Ornare Corporation
+
+On which date was the AddressBook titled “Lorem Foundation” created?
+command:
+select createdON from AddressBook where name='Lorem Foundation';
+
+result:
+2016-06-26 02:43:41
+2015-05-04 14:28:16
+
