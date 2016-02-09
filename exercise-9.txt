@@ -1,0 +1,25 @@
+How many Accounts exist?
+
+command:
+select count(*) from Account;
+
+result:
+1000
+
+
+How many Address Books exist?
+
+command:
+select count(*) from AddressBook;
+
+result:
+1100
+
+
+How many Address Book Entries exist?
+
+command:
+select count(*) from Entry;
+
+result:
+4000
